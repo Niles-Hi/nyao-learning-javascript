@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Learning JavaScript</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="script.js"></script>
+	</head>
+	
+	<body>
+		<h1>Learning JavaScript</h1>
+		<nav>
+			<ul>
+				<li><a class="link" href="index.html">Home</a></li>
+				<li><a class="link" href="calculator.html">Calculator</a></li>
+				<li><a class="link" href="forms.html">Forms</a></li>
+				<li><a class="link" href="review1.html">Review 1</a></li>
+				<li><a class="link" href="image_gallery.html">Image Gallery</a></li>
+				<li><a class="link" href="animation.html">Animation</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>My JavaScript Calculator</h2>
+			<table id="calculator">
+				<tr>
+					<td colspan="3">
+						<input id="temp" type="text" value="" disabled />
+					</td>
+					<td colspan="1">
+						<input id="operator" type="text" value="" disabled />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<input id="result" type="text" value="0" disabled />
+					</td>
+				</tr>
+				<tr>
+					<td><button class="calc-button" id="seven" onclick="calcButton(7)">7</button></td>
+					<td><button class="calc-button" id="eight" onclick="calcButton(8)">8</button></td>
+					<td><button class="calc-button" id="nine" onclick="calcButton(9)">9</button></td>
+					<td><button class="calc-button" id="divide" onclick="calcButtonOp('/')">/</button></td>
+				</tr>
+				<tr>
+					<td><button class="calc-button" id="four" onclick="calcButton(4)">4</button></td>
+					<td><button class="calc-button" id="five" onclick="calcButton(5)">5</button></td>
+					<td><button class="calc-button" id="six" onclick="calcButton(6)">6</button></td>
+					<td><button class="calc-button" id="multiply" onclick="calcButtonOp('x')">x</button></td>
+				</tr>
+				<tr>
+					<td><button class="calc-button" id="one" onclick="calcButton(1)">1</button></td>
+					<td><button class="calc-button" id="two" onclick="calcButton(2)">2</button></td>
+					<td><button class="calc-button" id="three" onclick="calcButton(3)">3</button></td>
+					<td><button class="calc-button" id="subtract" onclick="calcButtonOp('-')">-</button></td>
+				</tr>
+				<tr>
+					<td><button class="calc-button" id="zero"onclick="calcButton(0)">0</button></td>
+					<td><button class="calc-button" id="dot" onclick="calcButtonDot()">.</button></td>
+					<td><button class="calc-button" id="equals" disabled onclick="equals()">=</button></td>
+					<td><button class="calc-button" id="add" onclick="calcButtonOp('+')">+</button></td>
+				</tr>
+				<tr>
+					<td colspan="4">
+						<button class="reset-button" onclick="location.reload()">C</button>
+					</td>
+				</tr>
+			</table>
+		</main>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

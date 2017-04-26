@@ -1,0 +1,257 @@
+h1 {
+	font-family: Garamond;
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.button {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: Garamond;
+	font-size: 20px;
+}
+
+#greeting {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#blog {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid grey;
+	font-family: Garamond;
+	font-size: 20px;
+	display: block;
+	width: 400px;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+nav {
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	background-color: #fffff0;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.link {
+	text-decoration: none;
+	font-family: Garamond;
+	font-size: 20px;
+	color: navy;
+}
+
+.link:hover {
+	color: green;
+}
+
+#calculator {
+	margin: auto;
+}
+
+#result {
+	border: 2px solid grey;
+	font-family: Consolas;
+	width: 325px;
+	text-align: right;
+	font-size: 25px;
+}
+
+h2 {
+	font-family: Garamond;
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 15px;
+	color: navy;
+}
+
+.calc-button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: Consolas;
+}
+
+.reset-button {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 157px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: Consolas;
+}
+
+#temp {
+	border: none;
+	font-family: Consolas;
+	width: 244px;
+	text-align: right;
+	font-size: 15px;
+}
+
+#operator {
+	border: none;
+	font-family: Consolas;
+	width: 73px;
+	text-align: center;
+	font-size: 15px;
+}
+
+/* Forms */
+#login{
+	width: 500px;
+}
+
+legend{
+	font-family: Garamond;
+	font-size: 20px;
+	padding: 10px 10px;
+	font-weight: bold;
+}
+
+input.form-input-text{
+	border: 2px solid grey;
+	font-family: Garamond;
+	font-size: 20px;
+	display: inline;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+input.form-input-text:focus{
+	background-color: lightyellow;
+}
+
+label{
+	display: inline-block;
+	font-size: 20px;
+	font-family: Garamond;
+	width: 80px;
+}
+
+.checkbox-label{
+	width: 200px;
+}
+
+.form-bottom{
+	font-family: Garamond;
+	font-size: 20px;
+	border-radius: 5px;
+}
+
+#login-button{
+	margin-left: 250 px;
+}
+
+#error{
+	font-family: Garamond;
+	font-size: 20px;
+	color: red;
+}
+
+#post{
+	width: 400px;
+	
+}
+
+#logout-bar{
+	font-family: Garamond;
+	font-size: 18px;
+	color: navy;
+	text-align: right;
+	padding: 10px 10px;
+	border-bottom: 2px solid grey;
+}
+
+.new-style{
+	font-family: Comic Sans MS;
+	font-size: 25px;
+	color: red;
+	border: 1px sold grey;
+	text-align: right;
+}
+
+.new-OG{
+	background-color: white;
+	color: black;
+}
+
+.new-Style1{
+	background-color: lightblue;
+	color: red;
+	
+}
+
+.new-Style2{
+	background-color: brown;
+	color: orange;
+	
+}
+
+.new-Style3{
+	background-color: green;
+	color: yellow;	
+}
+
+#images{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 450px;
+}
+
+
+/* Animation */
+#container{
+	width: 400px;
+	height: 400px;
+	position: relative;
+	background: #222930;
+}
+
+#animate{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: #E9E9E9;
+}
+
+
+

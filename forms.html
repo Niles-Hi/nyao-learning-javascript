@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Learning JavaScript</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="script.js"></script>
+	</head>
+	
+	<body>
+		<h1>Learning JavaScript</h1>
+		<nav>
+			<ul>
+				<li><a class="link" href="index.html">Home</a></li>
+				<li><a class="link" href="calculator.html">Calculator</a></li>
+				<li><a class="link" href="forms.html">Forms</a></li>
+				<li><a class="link" href="review1.html">Review 1</a></li>
+				<li><a class="link" href="image_gallery.html">Image Gallery</a></li>
+				<li><a class="link" href="animation.html">Animation</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>HTML Forms</h2>
+			<form id="login" action="user-home.html">
+				<fieldset>
+				<p id="error"> </p>
+					<legend>Login Information:</legend>
+					<label for="username">User</label>
+					<input type="text" class="form-input-text" id="username"
+						placeholder="Enter your username or email" name="username" />
+					</br>
+					<label for="password">Password</label>
+					<input type="password" class="form-input-text" id="password" />
+					</br>
+					<input type="checkbox" id="stay-logged" />
+					<label for="stay-logged" class="checkbox-label">
+						Stay signed in
+					</label>
+					<button class="form-button" id="login-button" 
+					onclick="return login();" >
+						Log in
+					</button>
+				</fieldset>
+			</form>
+		</main>
+	</body>
+</html>
